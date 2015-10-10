@@ -3,7 +3,7 @@ This repository contains resources for getting started with JDeodorant : Identif
 
 ***
 
-This repository contains information related to the tool **JDeodorant** presented at International Conference of Software Engineering, 2011. The tool was originally presented in [this paper](http://ieeexplore.ieee.org.prox.lib.ncsu.edu/stamp/stamp.jsp?tp=&arnumber=6032586).
+This repository contains information related to the tool **JDeodorant** presented at International Conference of Software Engineering, 2011. The tool was originally presented in [this paper](http://dl.acm.org/citation.cfm?doid=1985793.1985989).
 
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 
