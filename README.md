@@ -16,7 +16,7 @@ In this repository, for JDeodorant, you will find:
 
 * :white_check_mark: Source code
 
-This repository was constructed by [Yashwanth Nallabothu](https://github.com/YashwanthAsh) and his team, under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson).
+This repository was constructed by [Yashwanth Nallabothu](https://github.com/YashwanthAsh) and his team, under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Dr. Nikolaos Tsantalis and his colleagues for their help in establishing this repository.
 
 ## Attribution
 
