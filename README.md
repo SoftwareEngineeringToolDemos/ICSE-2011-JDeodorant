@@ -1,5 +1,5 @@
 # ICSE-2011-JDeodorant
-This repository contains resources for getting started with JDeodorant : Identification and Application of Extract Class Refactorings
+This repository contains resources for getting started with JDeodorant: Identification and Application of Extract Class Refactorings.
 
 ***
 
