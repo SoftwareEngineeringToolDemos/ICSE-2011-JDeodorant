@@ -28,7 +28,7 @@ As part of the load process, the following is loaded in the VM (as part of the V
   * Default username: *vagrant*
   * Default password: *vagrant*
 2. Oracle Java 8
-3. Eclipse for Java developers- Mars 4.5.1
+3. Eclipse IDE for Java developers- Mars 4.5.1
 
 ###Acknowledgements:
 Used vagrant virtual box image of [Ubuntu 14.04 64-bit](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop).
