@@ -26,12 +26,43 @@ Vagrant.configure(2) do |config|
 	#Changing current directory to Desktop
 	cd Desktop
 	#Downloading 64bit eclipse for java developers from Pennsylvania State University mirrior
-	wget "http://carroll.aset.psu.edu/pub/eclipse/technology/epp/downloads/release/mars/1/eclipse-java-mars-1-linux-gtk-x86_64.tar.gz"
+	wget "https://googledrive.com/host/0B-kwoOMu6poEUmt0WlJSOV9UbTQ/eclipse.tar.gz"
 	#extracting the downloaded eclipse tar file
-    tar zxvf eclipse-java-mars-1-linux-gtk-x86_64.tar.gz
+    	tar zxvf eclipse.tar.gz
 	#Deleting the eclispse tar file after extraction
-    rm eclipse-java-mars-1-linux-gtk-x86_64.tar.gz
-	#Changing the folder ownership from root to vagrant user so that vagrant user can run eclipse after logging into vm.  
-	chown -R vagrant: eclipse
+    	rm eclipse.tar.gz
+	# Copy readme, installation, licenses, how-to video links to vm desktop
+	wget https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/raw/master/build-vm/vm-contents/License.txt
+	wget https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/raw/master/build-vm/vm-contents/Readme.txt
+	wget https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/raw/master/build-vm/vm-contents/installation.txt
+	wget https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/raw/master/build-vm/vm-contents/Youtube_demo_link.txt
+	wget https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/raw/master/build-vm/vm-contents/Youtube_Jdeodorant_%20Extract%20class%20Refeactoring%20demo%20.desktop
+	wget https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/raw/master/build-vm/vm-contents/eclipse.desktop
+	wget https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/raw/master/build-vm/vm-contents/login_desktop.sh
+	wget https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/raw/master/build-vm/vm-contents/login_desktop.sh.desktop
+	#Changing the files on Desktop ownership from root to vagrant user so that vagrant user can run eclipse after logging into vm.  
+	chown -R vagrant: *
+	chmod -R 777 *
+	
+	# Add Eclipse to startup applications
+	mkdir "/home/vagrant/.config/autostart"
+	cp eclipse.desktop /home/vagrant/.config/autostart/eclipse.desktop
+	
+	# Install Adobe Flash Player plugin to view youtube videos
+	apt-get install flashplugin-installer 
+	
+	# Remove unnecessary launcher applications
+	rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
+	rm -f "/usr/share/applications/libreoffice-calc.desktop"
+	rm -f "/usr/share/applications/libreoffice-writer.desktop"
+	rm -f "/usr/share/applications/libreoffice-impress.desktop"
+	rm -f "/usr/share/applications/ubuntu-software-center.desktop"
+	# Disable screen lockout
+	mv /home/vagrant/Desktop/login_desktop.sh /home/vagrant/login_desktop.sh
+	update-desktop-database
+	cp /home/vagrant/Desktop/login_desktop.sh.desktop /etc/xdg/autostart/login_desktop.sh.desktop
+	rm /home/vagrant/Desktop/login_desktop.sh.desktop
+	# Reboot the VM
+	sudo reboot
    SHELL
 end
