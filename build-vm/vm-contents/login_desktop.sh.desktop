@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/vagrant/login_desktop.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=LockScreen Disabled
+Comment=Disable the lock screen

@@ -1,0 +1,21 @@
+***********************************************
+Installation instructions for jdeodorant plugin
+***********************************************
+Pre requisites:
+Java JDK – I used Java 8 in this my demo
+Eclipse Java/J2EE IDE – I used Eclipse Mars Java IDE in this demo
+Steps:
+1.	Install Java JDK if you don’t have it installed.
+2.	Download Latest Eclipse IDE for Java or J2EE.
+3.	Open Eclipse Marketplace inside the eclipse
+Help -> Eclipse Marketplace -> marketplace windows pops up
+4.	In search tab, filter plugins by entering “jdeodorant” in the find field
+5.	You will get Jdeodorant plugin in the results.
+6.	Click on install
+7.	A window will pop-up with installation details, click on confirm.
+8.	Next, you will get license agreement. Select “I accept …” and click on finish.
+9.	Plugin installation will take few seconds and then you will be asked to restart eclipse to complete the installation.
+10.	After restarting you will see an extra menu item “Bad Smells” in the menu bar.
+11.	Click on God Class in “Bad Smells” drop down to open God Class view.
+12.	You have successfully installed jdeodorant plugin in eclipse and now it is ready to use.
+
