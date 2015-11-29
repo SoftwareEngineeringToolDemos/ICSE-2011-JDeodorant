@@ -33,9 +33,5 @@ Eclipse workspace is on the desktop.
 
 Since this plugin is directly available on eclipse Marketplace there isn't any explicit binary file required and hence no binary version is placed on the desktop.
 
-Virual Machine credentails:
-username: jdeodorant
-password: jdeodorant
-
 References:
 http://jdeodorant.com/
