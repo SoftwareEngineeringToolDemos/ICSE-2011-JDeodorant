@@ -14,7 +14,7 @@ In this folder, you will find:
 1. Download and install [Vagrant](https://www.vagrantup.com/downloads.html) appropriate to your host OS.
 2. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) appropriate to your host OS.
 3. Copy the [Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/blob/master/build-vm/Vagrantfile) from [build-vm](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/tree/master/build-vm) to your host OS.
-4. Open command prompt (on Windows) or terminal (on Linux) and change the current directory to where the "Vagrantfile" was copied to.
+4. Open command prompt (on Windows) or terminal (on Linux) and change the current directory to where the **Vagrantfile** was copied to.
 5. Type the following in the command prompt or terminal: `vagrant up --provider virtualbox`
 6. The vagrant file will begin executing an at some point the VM will start up on VirtualBox. 
 7. Please wait for the vagrant script to complete executing before using the VM.
@@ -27,11 +27,11 @@ As part of the load process, the following is loaded in the VM (as part of the V
 1. Ubuntu Desktop 14.04
   * Default username: *vagrant*
   * Default password: *vagrant*
-2. Java 8.
-3. Eclipse 4.5.1 Mars
+2. Oracle Java 8
+3. Eclipse IDE for Java developers- Mars 4.5.1
 
 ###Acknowledgements:
-Used vagrant virtual box image of [64 bit ubuntu](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop).
+Used vagrant virtual box image of [Ubuntu 14.04 64-bit](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop).
 
 ###References:
 [Vagrant Documentation](https://docs.vagrantup.com/v2/getting-started/)
