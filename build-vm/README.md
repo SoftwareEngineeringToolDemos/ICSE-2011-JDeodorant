@@ -2,7 +2,8 @@
 
 In this folder, you will find:
 
-* **Vagrantfile** - Contains the vagrant script to load the Ubuntu 14.04 Desktop VM on VirtualBox with a default memory of 2048 MB
+* **[Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/blob/master/build-vm/Vagrantfile)** - Contains the vagrant script to load the Ubuntu 14.04 Desktop VM on VirtualBox with a default memory of 2048 MB
+* **[vm-contents](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-JDeodorant/tree/master/build-vm/vm-contents)** folder - This folder contains content that will be copied over to the build VM
 
 # Minimum Requirements for using this Vagrant Script
 1. Any 64-bit OS.
