@@ -3,7 +3,7 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Name=Java - Eclipse 
-Icon=eclipse.png
+Icon=/home/vagrant/Desktop/eclipse/icon.xpm
 Path=/home/vagrant/Desktop/eclipse
 Exec=/usr/bin/java -Dosgi.requiredJavaVersion=1.7 -XX:MaxPermSize=256m -Xms256m -Xmx1024m -jar /home/vagrant/Desktop/eclipse//plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar -os linux -ws gtk -arch x86_64 -showsplash /home/vagrant/Desktop/eclipse//plugins/org.eclipse.platform_4.5.1.v20150904-0015/splash.bmp -launcher /home/vagrant/Desktop/eclipse/eclipse -name Eclipse --launcher.library /home/vagrant/Desktop/eclipse//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.300.v20150602-1417/eclipse_1612.so -startup /home/vagrant/Desktop/eclipse//plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar --launcher.appendVmargs -exitdata 18800d -product org.eclipse.epp.package.java.product -vm /usr/bin/java -vmargs -Dosgi.requiredJavaVersion=1.7 -XX:MaxPermSize=256m -Xms256m -Xmx1024m -jar /home/vagrant/Desktop/eclipse//plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar
 StartupNotify=false
