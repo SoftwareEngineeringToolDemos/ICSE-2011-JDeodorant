@@ -14,7 +14,7 @@ JDeodorant is an Eclipse plug-in that identifies design problems in software, kn
 JDeodorant employs a variety of novel methods and techniques in order to identify code smells and suggest the appropriate refactorings that resolve them.
 
 More information about Jdeodorant can be found at: 
-http://jdeodorant.com/
+http://users.encs.concordia.ca/~nikolaos/jdeodorant/
 
 
 1.	Click on the eclipse icon on unity dock to start the eclipse if it didn't start automatically after login.
@@ -34,4 +34,4 @@ Eclipse workspace is on the desktop.
 Since this plugin is directly available on eclipse Marketplace there isn't any explicit binary file required and hence no binary version is placed on the desktop.
 
 References:
-http://jdeodorant.com/
+http://users.encs.concordia.ca/~nikolaos/jdeodorant/
